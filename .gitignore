@@ -1,0 +1,14 @@
+# Ignores everything...
+/*
+
+# ...except
+!.gitignore
+!Packages/
+
+Packages/*
+!Packages/User/
+!Packages/paredit/
+
+Packages/User/*
+!Packages/User/*.sublime-*
+

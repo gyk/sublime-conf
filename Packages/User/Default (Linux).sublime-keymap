@@ -1,0 +1,15 @@
+[
+	{ "keys": ["alt+right"], "command": "auto_complete" },
+	{ "keys": ["alt+right"], "command": "replace_completion_with_auto_complete", "context":
+		[
+			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": false },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": true }
+		]
+	},
+	{ "keys": ["f1"], "command": "show_panel", "args": { "panel": "incremental_find", "reverse": false } },
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+	{ "keys": ["f4"], "command": "find_all_under" },
+	{ "keys": ["f8"], "command": "expand_selection", "args": {"to": "word"} },
+	{ "keys": ["ctrl+k", "ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}}
+]
