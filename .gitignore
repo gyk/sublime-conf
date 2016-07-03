@@ -8,6 +8,7 @@
 Packages/*
 !Packages/User/
 !Packages/paredit/
+!Packages/C++/
 
 Packages/User/*
 !Packages/User/*.sublime-*
