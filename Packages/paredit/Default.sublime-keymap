@@ -6,11 +6,11 @@
 	"command": "paredit_open_round",
 	"context": [{"key": "should_paredit"}]
  }
-,{
-	"keys": [")"],
-	"command": "paredit_close_round",
-	"context": [{"key": "should_paredit"}]
- }
+// ,{
+// 	"keys": [")"],
+// 	"command": "paredit_close_round",
+// 	"context": [{"key": "should_paredit"}]
+//  }
 
 ,{
 	"keys": ["["],
